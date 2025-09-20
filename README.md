@@ -4,7 +4,7 @@
 
 ## Overview
 
-DATDT is a visual object tracking method that decouples appearance and trajectory processing to avoid trajectory guidance dilution in existing fusion-based approaches. Built upon HIPTrack, we introduce several improvements including explicit trajectory prediction, adaptive template updates, and target-aware cropping strategies.
+DATDT is a visual object tracking method that decouples appearance and trajectory processing to address the trajectory guidance dilution issue. 
 
 ## Key Ideas
 
@@ -15,10 +15,16 @@ DATDT is a visual object tracking method that decouples appearance and trajector
 
 
 ### Main Results
+We achieve  79.9% AO on GOT-10k and 71.0% AUC on NFS30, and maintain real-time performance at 55.5 FPS on a single RTX 4070Ti SUPER GPU. 
+
 ![sota_comparison1](assets/sota_comparison1.png)
 ![sota_comparison2](assets/sota_comparison2.png)
 
 ### Raw Results
+
+📁 Download Links:
+Baidu Netdisk: https://pan.baidu.com/s/1T_NzprtueI0GsJx0DRB5QQ Code: i4nu
+Google Drive: [Coming soon]
 
 ```
 raw_result/
