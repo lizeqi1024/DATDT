@@ -13,19 +13,12 @@ DATDT is a visual object tracking method that decouples appearance and trajector
 - **Adaptive Template Update**: Quality assessment before template updates
 - **Target-aware Cropping**: Dynamic scale adjustment for fast motion scenarios
 
-## Experimental Results
-
-We provide comprehensive experimental results including raw tracking outputs, ablation studies, and visualizations.
 
 ### Main Results
-
-Our method shows consistent improvements over strong baselines:
-
-**SOTA Comparison** :
 ![sota_comparison1](assets/sota_comparison1.png)
 ![sota_comparison2](assets/sota_comparison2.png)
 
-### Raw Results & Ablation Studies
+### Raw Results
 
 ```
 raw_result/
@@ -60,9 +53,8 @@ The key difference from existing methods is separating trajectory and appearance
 
 
 ## Contact
-
 - Zeqi Li: [GitHub](https://github.com/lizeqi1024)
-- Kai Yang (Corresponding): kyang@wtu.edu.cn
+
 
 ## Citation
 We hope the decoupled design perspective and thorough experimental analysis provide useful insights for the tracking community. If you find our work helpful for your research, please consider citing when the paper is accepted.
