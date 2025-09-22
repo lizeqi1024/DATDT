@@ -28,25 +28,7 @@ We achieve  79.9% AO on GOT-10k and 71.0% AUC on NFS30, and maintain real-time p
 
 Baidu Netdisk: https://pan.baidu.com/s/1T_NzprtueI0GsJx0DRB5QQ Code: i4nu
 
-Google Drive: [Coming soon]
-
-```
-raw_result/
-├── ablation_study_1/          # Component ablation (baseline→full model)
-├── ablation_study_2/          # Template update parameters
-├── ablation_study_3/          # Trajectory window size analysis  
-├── lasot/                     # LaSOT results
-├── nfs/                       # NFS30 results
-├── otb/                       # OTB2015 results
-├── trackingnet/               # TrackingNet results
-└── uav/                       # UAV123 results
-```
-
-**Verification**: All results can be directly evaluated using official toolkits. Each folder contains both raw tracking files and evaluation scripts.
-
-### Visualization Results
-
-We also provide visualization files showing tracking performance across different scenarios. Sample visualizations are available in the result folders (e.g., `got10k_submit.zip`, `visualization.zip`).
+Got-10k visualizations are available in the result folders (e.g., `got10k_submit.zip`, `visualization.zip`).
 
 ## Architecture
 
